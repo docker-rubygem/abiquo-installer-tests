@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.4
+ENV VERSION=20120104
 
 RUN gem install abiquo-installer-tests --version ${VERSION} --no-format-exec
 
